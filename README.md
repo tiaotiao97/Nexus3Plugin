@@ -2,11 +2,12 @@
 ## 介绍
 项目是Nexus3的插件demo，参考snyk的Nexus3插件编写。运行在Nexus OSS 3.49.0-02 测试，如果需要运行在其他版本下，需要修改pom中nexus-plugins依赖为相应版本（https://mvnrepository.com/artifact/org.sonatype.nexus.plugins/nexus-plugins）
 
-````<parent>
+````
+<parent>
         <groupId>org.sonatype.nexus.plugins</groupId>
         <artifactId>nexus-plugins</artifactId>
         <version>3.37.3-02</version>
-    </parent>
+</parent>
 ````
 ## 打包
 Nexus3支持的插件格式为 `kar`，使用bundle打包。在pom中已经配置好了bundle的maven插件。打包时只需在pom目录下执行命令即可
