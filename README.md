@@ -4,9 +4,9 @@
 
 ````
 <parent>
-        <groupId>org.sonatype.nexus.plugins</groupId>
-        <artifactId>nexus-plugins</artifactId>
-        <version>3.37.3-02</version>
+    <groupId>org.sonatype.nexus.plugins</groupId>
+    <artifactId>nexus-plugins</artifactId>
+    <version>3.37.3-02</version>
 </parent>
 ````
 ## 打包
